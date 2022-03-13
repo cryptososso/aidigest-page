@@ -1,0 +1,150 @@
+@media only screen and (max-width : 800px){
+   body{
+      padding: 0.7em;
+      font-size: 1rem;
+   }
+   
+  .container{
+   width: 90%;
+   max-width: 100%;
+   margin: 0 auto;
+   padding: 0.8em;
+  }
+
+  .flex{
+   flex-direction: column;
+   text-align: center;
+}
+
+#header-img{
+   flex-direction: column;
+}
+
+#header-img img{
+   margin-right: 1em;
+   margin-top: 1em;
+   margin-bottom: 0.5em;
+}
+
+#header-img h3{
+   font-size: 1rem;
+}
+
+#nav-bar{
+   margin-bottom: 2em;
+ }
+
+ 
+.title-area{
+   width: 400px;
+   height:200px;
+   margin: 0 auto;
+   margin-top: 10em;
+   margin-bottom: 2em;
+   padding: 1em;
+}
+
+h1{
+   font-size: 1.3rem;
+   margin-bottom: 1em;
+}
+
+.title-area p{
+   font-size: 0.8rem;
+   opacity: 0.8;
+}
+
+.video-area{
+   width: 450px;
+   height: 300px;
+   margin: 0 auto;
+}
+
+.video-area video{
+    width: 400px;
+    max-width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.form-area{
+   width: 400px;
+}
+
+#form{
+   flex-direction: column;
+}
+
+#form #email{
+   width: 350px;
+   font-size: 1.2rem;
+   padding: 0.3em;
+   text-align: center;
+}
+
+#form #submit{
+   width: 350px;
+   font-size: 1.2rem;
+}
+
+h2{
+   margin-bottom: 1.2em;
+   text-align: center;
+}
+
+.box-item{
+   flex-direction: column;
+   width: 400px;
+   padding: 0.8em;
+}
+
+.box-item img{
+   width: 400px;
+   height: 400px;
+   max-width: 100%;
+   object-fit: cover;
+   margin-right: 15px;
+}
+
+
+.box-item img{
+   width: 400px;
+   height: 400px;
+   margin-right: 2em;
+}
+
+.box-item p{
+   font-size: 1rem;
+   margin-right: 2em;
+}
+
+#health-area p{
+   margin-right: 2em;
+}
+
+
+.bg-brown{
+   width: 400px;
+   margin: 0 auto;
+   padding: 1em;
+   margin-bottom: 1.5em;
+}
+
+.bg-blue{
+   width: 400px;
+   margin: 0 auto;
+   padding: 1em;
+   margin-bottom: 1.5em;
+}
+
+.bg-blue p{
+   margin-bottom: 1em;
+}
+
+footer{
+   width: 100%;
+   margin-left: 2em;
+}
+
+
+}
